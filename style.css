@@ -1,0 +1,36 @@
+body {
+    background-color: rgb(16, 65, 65);
+    color: white;
+    font-family: sans-serif;
+}
+
+header {
+    text-align: center;
+}
+
+main {
+    width: 70%;
+    margin: auto;
+}
+
+input[type="text"] {
+    height: 40px;
+    width: 600px;
+    margin-right: 100px;
+}
+input[placeholder] {
+    padding-left: 30px;
+}
+
+.btn {
+    height: 35px;
+    width: 200px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: ease-in-out 300ms;
+}
+.btn:hover {
+    transform: scale(1.1);
+    background-color: yellow;
+    color: blue;
+}
