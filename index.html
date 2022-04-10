@@ -1,21 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/c6c5c3cb4b.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
     <title>Todo</title>
 </head>
+
 <body>
     <header>
         <h1>Todo App</h1>
     </header>
     <main>
-        <div class="first container">
-            <input type="text" placeholder="Enter todo">
-            <button class="btn"><a href="#"></a>Create Todo</button>
+        <div class="first-container">
+            <form>
+                <input type="text" placeholder="Enter todo">
+                <button id="btn" class="btn" type="submit"><a href="#"></a>Create Todo</button>
+            </form>
+        </div>
+        <div class="second-cotainer">
+            <div class="p-con">
+                <button class="btn2"></button>
+                <p>Work on Dikoko</p>
+            </div>
+            <div class="p-con2">
+                <p>0 completed of 2</p>
+                <i class="fa-solid fa-angle-up"></i>
+            </div>
         </div>
     </main>
+
+
+    <script src="dom.js"></script>
 </body>
+
 </html>
